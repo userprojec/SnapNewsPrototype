@@ -39,7 +39,7 @@ def summarize_with_lsa(article_text):
 def main():
     st.markdown("<h1 style='text-align: center;'>SnapNews</h1><br>", unsafe_allow_html=True)
 
-    articles = fetch_latest_articles(5)  # Fetch up to 20 latest articles
+    articles = fetch_latest_articles(20)  # Fetch up to 20 latest articles
     if articles:
         for i, article in enumerate(articles, start=1):
             # st.write(f"### Article {i}")
