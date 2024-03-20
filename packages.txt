@@ -1,6 +1,1 @@
-streamlit
-requests
-nltk
-newspaper3k
-Pillow
-sumy
+
